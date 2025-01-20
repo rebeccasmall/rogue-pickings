@@ -44,16 +44,21 @@ header h1 {
     outline: 3px dotted red; 
     width: 300px;
     float: left;
+    margin: 0;
+    padding: 36px 0;
 }
 
 header h1 span {
-
+    color: #45610E;
 }
 
 header nav {
     outline: 3px dotted red;
     width: 300px;
     float: right;
+    margin: 0;
+    padding: 44px 0;
+    text-align: center;
 }
 
 header nav ul {
@@ -62,20 +67,28 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 header nav ul li a {
-
+    text-decoration: none;
+    color: #45610E;
 }
 
 /********  MAIN STYLES ********/
 /******** TOP SECTION ********/
 .main-image img {
-
+    border-top: 3px solid #77A466;
+    border-bottom: 3px solid #77A466;
 }
 
-.main-title h2 {
-
+.main-title h2 {    
+    padding: 25px 0;
+    color: #45610E;
 }
 
 /******** BOTTOM SECTION ********/
