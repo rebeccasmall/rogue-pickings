@@ -39,7 +39,7 @@ p {
 /******** HEADER STYLES ********/
 header h1 {
     outline: 3px dotted red; 
-
+    width: 300px;
 }
 
 header h1 span {
@@ -48,7 +48,7 @@ header h1 span {
 
 header nav {
     outline: 3px dotted red;
-
+    width: 300px;
 }
 
 header nav ul {
@@ -82,19 +82,19 @@ header nav ul li a {
 .section-two,
 .section-three {
     outline: 3px dotted red; 
-
+    box-sizing: border-box;
 }
 
 .section-one {
-    
+    width: 350px;
 }
 
 .section-two {
-
+ width: 500px;
 }
 
 .section-three {
-
+    width: 350px;
 }
 
 .bottom-section h3 {
