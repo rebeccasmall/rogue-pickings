@@ -102,6 +102,8 @@ header nav ul li a {
 .section-three {
     box-sizing: border-box;
     float: left;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .section-one {
@@ -119,7 +121,8 @@ header nav ul li a {
 }
 
 .bottom-section h3 {
-
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .menu-list {
