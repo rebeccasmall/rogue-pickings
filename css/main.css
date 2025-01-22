@@ -26,7 +26,7 @@ h3 {
 }
 
 h4 {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 p {
@@ -136,9 +136,16 @@ header nav ul li a {
 
 /******** FOOTER STYLES ********/
 footer {
+    padding-top: 8px;
     text-align: center;
 }
 
-footer span {
+footer h4 {
+    text-transform: uppercase;
+}
 
+footer span {
+    font-family: "Galada", cursive;
+    text-transform: lowercase;
+    color: #45610E;
 }
