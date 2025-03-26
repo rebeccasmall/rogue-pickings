@@ -34,10 +34,15 @@ p {
 }
 
 .content-wrapper {
-    width: 1200px;
+    width: 90%;
 }
 
 /******** HEADER STYLES ********/
+header {
+    display: flex;
+    justify-content: center;
+}
+
 header h1 {
     width: 300px;
     padding: 36px 0;
@@ -70,6 +75,11 @@ header nav ul li a {
 
 /********  MAIN STYLES ********/
 /******** TOP SECTION ********/
+.top-section {
+    display: flex;
+    justify-content: center;
+}
+
 .main-image img {
     border-top: 3px solid #77A466;
     border-bottom: 3px solid #77A466;
@@ -81,6 +91,11 @@ header nav ul li a {
 }
 
 /******** BOTTOM SECTION ********/
+.bottom-section {
+    display: flex;
+    justify-content: center;
+}
+
 .bottom-section .content-wrapper {
     border-top: 5px solid #EEE;
     border-bottom: 5px solid #EEE;
@@ -126,6 +141,8 @@ header nav ul li a {
 
 /******** FOOTER STYLES ********/
 footer {
+    display: flex;
+    justify-content: center;
     padding-top: 8px;
     text-align: center;
 }
