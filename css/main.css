@@ -53,9 +53,6 @@ header nav {
     text-align: center;
 }
 
-header nav ul {
-
-}
 
 header nav ul li {
     font-size: 14px;
@@ -63,6 +60,7 @@ header nav ul li {
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
+    list-style: none;
 }
 
 header nav ul li a {
