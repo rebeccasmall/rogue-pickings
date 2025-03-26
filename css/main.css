@@ -58,7 +58,6 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline-block;
     font-size: 14px;
     text-transform: capitalize;
     font-weight: bold;
